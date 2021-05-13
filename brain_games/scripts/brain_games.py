@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 def main():
     """Run an example code."""
     # it is ok to have some magical numbers locally
