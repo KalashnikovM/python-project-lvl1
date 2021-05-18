@@ -1,5 +1,5 @@
 name: Test project
-on: [push, pull_request]
+on: [push]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
