@@ -5,8 +5,4 @@ jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make install
-      - run: make build
-      - run: make publish
-      - run: make package-install
-      - run: make lint
+      - run: poetry run flake8 brain_games
