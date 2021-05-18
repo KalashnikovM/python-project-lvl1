@@ -1,7 +1,7 @@
 name: Test project
-on: [push]
+on: [push, pull_request]
 jobs:
   Explore-GitHub-Actions:
     runs-on: ubuntu-latest
     steps:
-      - run: make lint
+      - run: poetry run flake8 brain_games
