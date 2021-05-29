@@ -1,6 +1,5 @@
 from random import randint
 
-
 DESCRIPTION = 'Answer "yes" if number even otherwise answer "no".'
 
 

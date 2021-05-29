@@ -1,6 +1,5 @@
 from random import randint, choice
 
-
 DESCRIPTION = 'What is the result of the expression?'
 
 
