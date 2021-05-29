@@ -7,6 +7,9 @@ brain-games:
 brain-even:
 	poetry run brain-even
 
+brain-calc:
+	poetry run brain-calc
+
 build:
 	poetry build
 
@@ -22,3 +25,13 @@ package-reinstall:
 lint:
 	poetry run flake8 brain_games
 	poetry run flake8 brain_even
+	poetry run flake8 brain_calc
+
+install-all:
+	poetry install
+	poetry build
+	poetry publish --dry-run
+	python3 -m pip install --user dist/hexlet_code-0.2.3-py3-none-any.whl
+	poetry run flake8 brain_games
+	poetry run flake8 brain_even
+	poetry run flake8 brain_calc
