@@ -16,6 +16,9 @@ brain-gcd:
 brain-progression:
 	poetry run brain-progression
 
+brain-prime:
+	poetry run brain-prime
+
 build:
 	poetry build
 
@@ -34,14 +37,16 @@ lint:
 	poetry run flake8 brain_calc
 	poetry run flake8 brain-gcd
 	poetry run flake8 brain-progression
+	poetry run flake8 brain-prime
 
 install-all:
 	poetry install
 	poetry build
 	poetry publish --dry-run
-	python3 -m pip install --user dist/hexlet_code-0.5.3-py3-none-any.whl
+	python3 -m pip install --user dist/hexlet_code-0.6.3-py3-none-any.whl
 	poetry run flake8 brain_games
 	poetry run flake8 brain_even
 	poetry run flake8 brain_calc
 	poetry run flake8 brain-gcd
 	poetry run flake8 brain-progression
+	poetry run flake8 brain-prime

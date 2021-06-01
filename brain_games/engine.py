@@ -10,7 +10,7 @@ def start(game):
     name = prompt.string('May I have your name?')
     print(f'Hello, {name}')
     while start_round <= QUANTITY_ROUND:
-        result, question, = game.get_question_and_answer()
+        result, question, = game.get_question()
         print('Question: ' + question)
         answer = prompt.string('Your answer: ')
         if result == answer:

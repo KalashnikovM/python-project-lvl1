@@ -3,8 +3,8 @@ from random import randint
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def get_question_and_answer():
-    length_of_progression = 10
+def get_question():
+    length_of_progression = 15
     start_progression = randint(1, 100)
     answer = randint(0, length_of_progression - 1)
     resolution = randint(1, 30)
