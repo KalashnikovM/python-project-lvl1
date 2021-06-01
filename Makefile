@@ -33,13 +33,15 @@ lint:
 	poetry run flake8 brain_even
 	poetry run flake8 brain_calc
 	poetry run flake8 brain-gcd
+	poetry run flake8 brain-progression
 
 install-all:
 	poetry install
 	poetry build
 	poetry publish --dry-run
-	python3 -m pip install --user dist/hexlet_code-0.4.3-py3-none-any.whl
+	python3 -m pip install --user dist/hexlet_code-0.5.3-py3-none-any.whl
 	poetry run flake8 brain_games
 	poetry run flake8 brain_even
 	poetry run flake8 brain_calc
 	poetry run flake8 brain-gcd
+	poetry run flake8 brain-progression

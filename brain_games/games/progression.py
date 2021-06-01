@@ -1,19 +1,21 @@
-from random import randint, choice
+from random import randint
 
 DESCRIPTION = 'What number is missing in the progression?'
 
 
 def get_question_and_answer():
-    multiplier = randint(1, 25)
-    check_position_num = randint(3, 20)
-    my_seq = list(range(1, 300, multiplier))
-    print('my_seq', my_seq)
-    xx = my_seq[check_position_num]
-    my_seq.insert(check_position_num, '. .')
-    print('new my_seq', my_seq)
-    print('multiplier', multiplier)
-    print('Position ', check_position_num + 1)
-    print(xx)
-
-
-get_question_and_answer()
+    length_of_progression = 10
+    start_progression = randint(1, 100)
+    answer = randint(0, length_of_progression - 1)
+    resolution = randint(1, 30)
+    index_of_num = 0
+    question = ''
+    while index_of_num < length_of_progression:
+        if index_of_num == answer:
+            question += '. . '
+            index_of_num += 1
+        else:
+            question += f'{start_progression + resolution * index_of_num} '
+            index_of_num += 1
+    result = start_progression + resolution * answer
+    return str(result), question.rstrip()
