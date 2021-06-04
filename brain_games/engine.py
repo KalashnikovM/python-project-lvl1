@@ -2,7 +2,6 @@ import prompt
 
 
 def start(game):
-    print('Start engineeeeeee!!!!!!!!!!')
     QUANTITY_ROUND = 3
     start_round = 1
     print('Welcome to the Brain games!')
@@ -17,7 +16,10 @@ def start(game):
             print('Correct!')
             start_round += 1
         else:
-            print(f'"{answer}" is wrong answer ;(. Correct answer was "{result}".')
+            print(
+                f'"{answer}" is wrong answer ;(.'
+                f'Correct answer was "{result}". '
+            )
             print(f'"Let\'s try again, {name}!"')
             return
     print(f'Congratulations, {name}!')
