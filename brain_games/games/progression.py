@@ -12,7 +12,7 @@ def get_question():
     question = ''
     while index_of_num < length_of_progression:
         if index_of_num == answer:
-            question += '. . '
+            question += '.. '
             index_of_num += 1
         else:
             question += f'{start_progression + resolution * index_of_num} '
