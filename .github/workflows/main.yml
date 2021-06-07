@@ -1,4 +1,3 @@
-
 name: Python CI
 
 on:
@@ -8,21 +7,13 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        # we want to test our package on several versions of Python
-        python-version: [3.8]
     steps:
-      - uses: actions/checkout@v2
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v2
-        with:
-          python-version: ${{ matrix.python-version }}
-        # make depends on poetry
+      - name: Check out repository code
+        uses: actions/checkout@v2
       - name: Install dependencies
         run: |
           pip install poetry
-          make install-all
-      - name: Run linter and pytest
+          make install
+      - name: Run linter
         run: |
           make lint
