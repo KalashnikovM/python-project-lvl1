@@ -16,4 +16,4 @@ For install games use "pip install mhlk-brain-games" command.
 
 Preview installation and launch
 
-https://asciinema.org/a/rTECQOGPYkRkzO5IKBtRrDyY5
+[![asciicast](https://asciinema.org/a/rTECQOGPYkRkzO5IKBtRrDyY5.svg)](https://asciinema.org/a/rTECQOGPYkRkzO5IKBtRrDyY5)
