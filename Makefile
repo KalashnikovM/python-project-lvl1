@@ -33,20 +33,11 @@ package-reinstall:
 
 lint:
 	poetry run flake8 brain_games
-	poetry run flake8 brain_even
-	poetry run flake8 brain_calc
-	poetry run flake8 brain_gcd
-	poetry run flake8 brain_progression
-	poetry run flake8 brain_prime
 
 install-all:
 	poetry install
 	poetry build
 	poetry publish --dry-run
-	python3 -m pip install --user dist/hexlet_code-0.7.9-py3-none-any.whl
+	python3 -m pip install --user --force-reinstall dist/*.whl
 	poetry run flake8 brain_games
-	poetry run flake8 even_even
-	poetry run flake8 brain_calc
-	poetry run flake8 brain_gcd
-	poetry run flake8 brain_progression
-	poetry run flake8 brain_prime
+
