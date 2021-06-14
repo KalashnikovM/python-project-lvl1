@@ -3,7 +3,7 @@ from random import randint, choice
 DESCRIPTION = 'What is the result of the expression?'
 
 
-def get_question():
+def get_question_and_answer():
     num_operator = choice('-+*')
     f_num = randint(1, 99)
     s_num = randint(1, 99)

@@ -1,15 +1,15 @@
 import prompt
+from brain_games import cli
 
 
-def start(game):
+def run_engine(game):
     QUANTITY_ROUND = 3
     start_round = 1
     print('Welcome to the Brain games!')
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    name = cli.welcome_user()
     print(game.DESCRIPTION + '\n')
     while start_round <= QUANTITY_ROUND:
-        result, question, = game.get_question()
+        result, question, = game.get_question_and_answer()
         print('Question: ' + question)
         answer = prompt.string('Your answer: ')
         if result == answer:
