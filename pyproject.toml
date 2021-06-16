@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "Mhlk-brain-games"
+name = "hexlet-code"
 version = "0.8.1"
 description = "Run and go"
 authors = ["KalashnikovM"]
