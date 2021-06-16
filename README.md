@@ -16,6 +16,7 @@ For install games use "pip install mhlk-brain-games" command.
 "brain-progression"
 
 
-Preview installation and launch
+Preview installation and launch brain-games
 
-[![asciicast](https://asciinema.org/a/rTECQOGPYkRkzO5IKBtRrDyY5.svg)](https://asciinema.org/a/rTECQOGPYkRkzO5IKBtRrDyY5)
+[![asciicast](https://asciinema.org/connect/a47a9798-1540-415a-a2eb-704b13a02ca0)
+)
