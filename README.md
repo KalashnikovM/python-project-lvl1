@@ -3,6 +3,8 @@
 
 [![Github Actions Status](https://github.com/KalashnikovM//python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/KalashnikovM//python-project-lvl1/actions)
 
+[![hexlet-check](https://github.com/KalashnikovM/python-project-lvl1/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KalashnikovM/python-project-lvl1/actions/workflows/hexlet-check.yml)
+
 Welcome to brain games!
 
 For install games use "pip install mhlk-brain-games" command.
