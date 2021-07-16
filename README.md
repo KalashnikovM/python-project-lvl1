@@ -37,7 +37,7 @@ Launch brain-prime
     [![asciicast](https://asciinema.org/a/HLTNvQ6FUS7nS513z5Rl3bTLW)
 
 Launch brain-progression
-    [![asciicast](https://asciinema.org/a/XMhK3an29b0UT54cjnia2WVs8)
+    [![asciicast](https://asciinema.org/a/XMhK3an29b0UT54cjnia2WVs8.svg)](https://asciinema.org/a/XMhK3an29b0UT54cjnia2WVs8)
 
 
 
