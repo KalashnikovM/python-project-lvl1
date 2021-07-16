@@ -19,21 +19,27 @@ For install games use "pip install mhlk-brain-games" command.
 Preview installation and launch brain-games
 
 Install
+
 [![asciicast](https://asciinema.org/a/OoW7hbmzLaGITkvSulgwJknQb.svg)](https://asciinema.org/a/OoW7hbmzLaGITkvSulgwJknQb)
 
 Launch brain-games
+
 [![asciicast](https://asciinema.org/a/YyVDwRAMbE4JfE82uA0fGP7LV.svg)](https://asciinema.org/a/YyVDwRAMbE4JfE82uA0fGP7LV)
 
 Launch brain-calc
+
 [![asciicast](https://asciinema.org/a/fFc5lqbwdX6TAC6IcUpiGz39E.svg)](https://asciinema.org/a/fFc5lqbwdX6TAC6IcUpiGz39E)
 
 Launch brain-even
+
 [![asciicast](https://asciinema.org/a/rx0ZGrpEJMlZn9QzKYTZCsvvm.svg)](https://asciinema.org/a/rx0ZGrpEJMlZn9QzKYTZCsvvm)
 
 Launch brain-gcd
+
 [![asciicast](https://asciinema.org/a/ZyOVoDGNzoqgeNJGKdgD4aofr.svg)](https://asciinema.org/a/ZyOVoDGNzoqgeNJGKdgD4aofr)
 
 Launch brain-prime
+
 [![asciicast](https://asciinema.org/a/HLTNvQ6FUS7nS513z5Rl3bTLW.svg)](https://asciinema.org/a/HLTNvQ6FUS7nS513z5Rl3bTLW)
 
 Launch brain-progression
