@@ -1,5 +1,4 @@
-# python-project-lvl1
-<a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a>
+<a href="https://codeclimate.com/github/KalashnikovM/python-project-lvl1/maintainability"><img src="https://api.codeclimate.com/v1/badges/aece06a9758d6f8f94bc/maintainability" /></a>
 
 [![Github Actions Status](https://github.com/KalashnikovM//python-project-lvl1/workflows/Python%20CI/badge.svg)](https://github.com/KalashnikovM//python-project-lvl1/actions)
 
